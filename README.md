@@ -1,5 +1,8 @@
 # README
 
+## Taldearen izena
+**Bikote**
+
 ## Taldekideak
 - Yoel Justel
 - Xinyan Wang
